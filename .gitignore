@@ -1,0 +1,40 @@
+# --- Eclipse workspace (ne pas versionner) ---
+.metadata/
+RemoteSystemsTempFiles/
+
+# --- IDEs / éditeurs ---
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# --- Build & compilés ---
+**/build/
+**/target/
+**/out/
+*.class
+*.war
+*.ear
+# JAR du connecteur à la racine uniquement (les libs du projet restent dans WEB-INF/lib si besoin)
+/mysql-connector-java-*.jar
+
+# --- Logs & fichiers locaux ---
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# --- Installateurs & archives (très lourds, inutiles au dépôt) ---
+*.zip
+*.msi
+*.exe
+eclipse-jee-*/
+wildfly-*/
+
+# --- Module WildFly MySQL local (JARs, à recréer sur chaque machine) ---
+mysql/
+
+# --- OS ---
+desktop.ini
