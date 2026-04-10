@@ -1,6 +1,6 @@
 # MyClubLife — J2EE
 
-> **Academic project** — This repository is coursework / a learning exercise for **Java EE** web development. It is not intended as production software.
+> **Academic project**
 
 Dynamic web module (Eclipse), targeting deployment on a **Jakarta EE**–compatible application server (e.g. WildFly).
 
