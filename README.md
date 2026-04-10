@@ -1,26 +1,28 @@
 # MyClubLife — J2EE
 
-Projet web **Java EE** (module dynamique Eclipse), prévu pour déploiement sur un serveur d’applications compatible **Jakarta EE** (ex. WildFly).
+> **Academic project** — This repository is coursework / a learning exercise for **Java EE** web development. It is not intended as production software.
 
-## Contenu du dépôt
+Dynamic web module (Eclipse), targeting deployment on a **Jakarta EE**–compatible application server (e.g. WildFly).
 
-| Élément | Description |
-|--------|-------------|
-| `JEE_student/` | Projet web Eclipse (sources, `WEB-INF`, configuration facettes) |
-| `mabase.sql.sql` / `mabasedata.sql.sql` | Scripts SQL de référence pour la base |
+## Repository layout
 
-## Prérequis
+| Path | Description |
+|------|-------------|
+| `JEE_student/` | Eclipse web project (sources, `WEB-INF`, facet settings) |
+| `mabase.sql.sql` / `mabasedata.sql.sql` | Reference SQL scripts for the database |
 
-- JDK 17 (ou la version alignée sur les facettes du projet)
-- Eclipse IDE for Enterprise Java and Web Developers (ou équivalent)
-- Serveur d’applications (ex. WildFly), configuré comme runtime dans Eclipse
-- MySQL (schéma/données via les scripts `.sql` si besoin)
+## Prerequisites
 
-## Importer dans Eclipse
+- JDK 17 (or the version matching the project facets)
+- Eclipse IDE for Enterprise Java and Web Developers (or equivalent)
+- Application server (e.g. WildFly) configured as a runtime in Eclipse
+- MySQL (schema/data via the `.sql` scripts if needed)
+
+## Import into Eclipse
 
 1. **File → Import → Existing Projects into Workspace**
-2. Sélectionner le dossier `JEE_student`
-3. Associer le runtime WildFly (ou autre) au projet si demandé
+2. Select the `JEE_student` folder
+3. Attach the WildFly (or other) runtime when prompted
 
 ## Git
 
@@ -30,4 +32,4 @@ git branch -M main
 git push -u origin main
 ```
 
-*(Après le premier `git push`, GitHub demandera une authentification : token personnel ou SSH selon votre configuration.)*
+After the first `git push`, GitHub will ask for authentication (personal access token or SSH, depending on your setup).
