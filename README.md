@@ -4,19 +4,23 @@
 
 Dynamic web module (Eclipse), targeting deployment on a **Jakarta EE**–compatible application server (e.g. WildFly).
 
+## Live Demo
+
+🎥 [Watch the live demo video](https://youtu.be/z5nOB7gtSbg)
+
 ## Repository layout
 
-| Path | Description |
-|------|-------------|
-| `JEE_student/` | Eclipse web project (sources, `WEB-INF`, facet settings) |
-| `mabase.sql.sql` / `mabasedata.sql.sql` | Reference SQL scripts for the database |
+| Path                                    | Description                                              |
+| --------------------------------------- | -------------------------------------------------------- |
+| `JEE_student/`                          | Eclipse web project (sources, `WEB-INF`, facet settings) |
+| `mabase.sql.sql` / `mabasedata.sql.sql` | Reference SQL scripts for the database                   |
 
 ## Prerequisites
 
-- JDK 17 (or the version matching the project facets)
-- Eclipse IDE for Enterprise Java and Web Developers (or equivalent)
-- Application server (e.g. WildFly) configured as a runtime in Eclipse
-- MySQL (schema/data via the `.sql` scripts if needed)
+* JDK 17 (or the version matching the project facets)
+* Eclipse IDE for Enterprise Java and Web Developers (or equivalent)
+* Application server (e.g. WildFly) configured as a runtime in Eclipse
+* MySQL (schema/data via the `.sql` scripts if needed)
 
 ## Import into Eclipse
 
@@ -32,4 +36,4 @@ git branch -M main
 git push -u origin main
 ```
 
-After the first `git push`, GitHub will ask for authentication (personal access token or SSH, depending on your setup).
+After the first `git push`, GitHub will ask for authentication using a personal access token or SSH, depending on your setup.
