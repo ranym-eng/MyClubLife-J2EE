@@ -6,7 +6,7 @@ Dynamic web module (Eclipse), targeting deployment on a **Jakarta EE**–compati
 
 ## Live Demo
 
-🎥 [Watch the live demo video](https://youtu.be/z5nOB7gtSbg)
+🎥 [Watch the live demo video](https://youtu.be/dqap5OH0aUA)
 
 ## Repository layout
 
